@@ -1,0 +1,30 @@
+main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: Helvetica Arial sans-serif;
+}
+
+h1 {
+    color: red;
+    font-size: 2em;
+}
+
+a {
+    color: black;
+    font-size: 1em;
+    text-decoration: none;
+    transition: color 2ms linear;
+}
+
+a:hover {
+    color: red;
+}
+
+p {
+    color: black;
+    font-size: 1em;
+}
+
+
